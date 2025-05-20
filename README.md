@@ -1,6 +1,17 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+
+first simple java project -- recipe generator
+
+features:
+1. generate random recipe from database & ingredients list
+2. search recipe from database
+3. saved recipes section
+4. grocery list section
+
+
+
+-------------
 
 ## Folder Structure
 
