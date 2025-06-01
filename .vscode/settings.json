@@ -1,7 +1,14 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "build",
+  "java.project.referencedLibraries": [
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/javafx.base.jar",
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/javafx.controls.jar",
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/javafx.fxml.jar",
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/javafx.graphics.jar",
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/javafx.media.jar",
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/javafx.swing.jar",
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/javafx.web.jar",
+    "/Users/trishnguyen/Downloads/javafx-sdk-24.0.1/lib/jdk.jsobject.jar"
+  ]
 }

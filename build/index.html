@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Editable File</title>
+  <script>
+    function loadFile() {
+      javaApp.readFile();
+    }
+
+    function saveFile() {
+      const text = document.getElementById("inputArea").value;
+      javaApp.writeFile(text);
+    }
+
+    function displayContent(content) {
+      document.getElementById("inputArea").value = content;
+    }
+  </script>
+</head>
+<body>
+  <h1>Read & Edit File</h1>
+  <textarea id="inputArea" rows="10" cols="50">Loading...</textarea><br><br>
+  <button onclick="loadFile()">Load</button>
+  <button onclick="saveFile()">Save</button>
+</body>
+</html>
